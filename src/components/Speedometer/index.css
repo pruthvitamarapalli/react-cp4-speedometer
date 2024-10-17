@@ -1,0 +1,50 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  color: #ffffff;
+  min-height: 100vh;
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.description {
+  color: #94a3b8;
+}
+.image {
+  width: 50%;
+  height: 50%;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.accelerate {
+  color: #ffffff;
+  border-style: none;
+  background-color: #0b69ff;
+}
+
+.break {
+  color: #ffffff;
+  border: 2px solid #cbd5e1;
+  background-color: transparent;
+}
